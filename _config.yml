@@ -1,13 +1,13 @@
 #
 # 这个文档包含了本博客的设定信息，你可以编辑它来个性化自己的博客，
 #
-
+#
 # 你的博客名称，请用你想要的博客名替换“LOFFER”，以下修改都可类似处理
 # 注意，“name: LOFFER”，冒号后面的空格不可以省略。
 # 井号后面的文字是说明文档，不会被程序读取。
-name: LOFFER
+name: 执伞挽故人.
 # 描述/签名
-description: LOFFER Blog
+description: Chaos_Florence's Blog
 
 #
 # 下面的设定都是可选的
@@ -32,7 +32,7 @@ navigation:
     url: /tags
 
 # 每页的文章数
-paginate: 8
+paginate: 2
 
 # 文章简介的区分标记
 excerpt_separator: <!-- more -->
@@ -42,21 +42,21 @@ footer-links:
   weibo: #请输入你的微博个性域名 https://www.weibo.com/<thispart>
   behance: # https://www.behance.net/<>
   dribbble: # https://dribbble.com/<>
-  email: tst@tst.xyz 
+  email: 1375880562@qq.com 
   facebook: #https://www.facebook.com/<>
   flickr: #https://www.flickr.com/<>
-  github: tst #https://github.com/<>
+  github: luo2f #https://github.com/<>
   instagram: #https://instagram.com/<>
   linkedin: #https://www.linkedin.com/in/<>
   pinterest: #https://www.pinterest.com/<>
-  rss: rss #随便填点啥RSS就能用了
+  rss: Florence #随便填点啥RSS就能用了
   stackoverflow: # http://stackoverflow.com/<>
   tumblr: # https://<username>.tumblr.com
-  twitter: tst # https://www.twitter.com/<your_twitter_username> 
-  youtube: # channel/<your_long_string> or user/<user-name>
+  twitter: Chaos_Florence # https://www.twitter.com/<your_twitter_username> 
+  youtube: Chaos_Florence # channel/<your_long_string> or user/<user-name>
 
 # 站点页脚的文字
-footer-text: Copyright (c) 2019 - 2020
+footer-text: Copyright (c) 2019 - 2023
 
 # 评论，注意，请不要同时添加多种不同的评论区
 
@@ -65,13 +65,13 @@ footer-text: Copyright (c) 2019 - 2020
 
 # 输入Gitalk相关设定，即可添加评论区
 gitalk:
-  clientID: 
-  clientSecret: 
-  repo: 
-  owner: 
+  clientID: 6edc0cdb0c0c2d18b710
+  clientSecret: b7a8ca62d11872c18e71eb959dd9674d555a298f
+  repo: luo2f.github.io.comment
+  owner: luo2f
 
 # 输入Google Analytics web tracking code
-google_analytics: 
+google_analytics: G-D3R6K9S7JW
 
 # 输入你的网站域名（如果你没有添加自己的域名，而是直接用GitHub pages分配的域名的话可以省略）
 url: 
@@ -113,6 +113,7 @@ plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jekyll-paginate
+  - jekyll-default-layout
 
 # Exclude these files from your production _site
 exclude:
